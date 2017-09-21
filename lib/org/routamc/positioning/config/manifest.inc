@@ -26,3 +26,14 @@
         ),
     ),
 ),
+'watches' => array
+(
+    array
+    (
+        'classes' => array
+        (
+            'net_nemein_tag_link_dba'
+        ),
+        'operations' => MIDCOM_OPERATION_DBA_CREATE | MIDCOM_OPERATION_DBA_UPDATE,
+    ),
+),
